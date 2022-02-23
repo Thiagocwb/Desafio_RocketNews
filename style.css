@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+.direita{
+    background-color: var(--body-bg-color);
+    display: inline-block;
+    position: absolute;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.esquerda{
+    background-image: url(./assets/read_news.jpg);
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    background-size: 100% 100vh;
+    color: transparent;
+}
+.logo{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 5rem;
+    width: 60%;
+}
+h2{
+    color: var(--title-color);
+    margin-left: 1.5rem;
+    font-family: Spartan, Work Sans;
+    font-weight: 400,500,700;
+    font-size: 22px;
+}
+#informacao{
+    color: var(--text-color);
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-family: Spartan, Work Sans;
+    font-weight: 400,500,700;
+    font-size: smaller;
+}
+#conteudo{
+    color: var(--form-color);
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-family: Spartan, Work Sans;
+    font-weight: 400,500,700;
+    font-size: smaller;
+}
+label{
+    color: var(--form-color);
+    margin-left: 1.5rem;
+    font-size: smaller;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: Spartan, Work Sans;
+    font-weight: 400,500,700;
+}
+#email{
+    margin-left: 1.5rem;
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid white;
+    border-left: 5px solid #04D361;
+}
+button{
+    display: inline-block;
+    position: absolute;
+    margin-left: 106%;
+    margin-top: -3.5rem;
+    width: 6%;
+    height: 5.8%;
+    border: 1px solid var(--bg-button-color);
+    background-color: var(--bg-button-color);
+}
+#enviar{
+    background-color: var(--bg-button-color);
+    margin-top: 0.3rem;
+}
+#rodape{
+    margin-left: 1.5rem;
+    color: var(--bg-button-color);
+    margin-top: 3rem;
+    font-family: Spartan, Work Sans;
+    font-weight: 400,500,700;
+}
